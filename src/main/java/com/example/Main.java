@@ -61,7 +61,7 @@ public class Main {
         outputList.add(output);
       }
 
-      model.put("records", output);
+      model.put("records", outputList);
       return "db";
     } catch (Exception e) {
       model.put("message", e.getMessage());
