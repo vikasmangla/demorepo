@@ -1,0 +1,1 @@
+web: java -jar target/bt-demo-vikas-1.0.jar
